@@ -7,17 +7,35 @@ public class AuthApp {
 		String id = "egoing";
 		String inputId = args[0];
 		
+		String pass = "1111";
+		String inputPass = args[1];
+		
+		
 		System.out.println("HI.");
-			
-	//	if(inputId == id) {
-		if(inputId.equals(id)) {
-			System.out.println("Master!");
-		}
-		else {
+//			
+//	//	if(inputId == id) {
+//		if(inputId.equals(id)) {
+//			if(inputPass.equals(pass)) {
+//			System.out.println("Master!");
+//			} else {
+//				System.out.println("Wrong password!");
+//			}
+//		}else {
+//			System.out.println("Who are you?");
+//		}
+//	
+	
+		if(inputId.equals(id) && inputPass.equals(pass)) {
+			System.out.println("Master!");	
+		} else {
 			System.out.println("Who are you?");
+			
 		}
-	
-	
+		
+		
+		
+		
+		
 	}
 
 }
